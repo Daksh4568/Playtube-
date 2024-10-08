@@ -131,7 +131,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-          <Link to={"https://github.com/thecodophile"}>
+          <Link to={"https://github.com/Daksh4568"}>
             <img
               src="https://avatars.githubusercontent.com/u/108585532?v=4"
               alt="Codophile"
