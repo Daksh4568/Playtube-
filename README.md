@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 <h1><strong>PlayTube</strong> - watch share & enjoy</h1>
@@ -55,3 +56,6 @@ To use this project, follow these steps:
 7. Open your web browser and navigate to `http://localhost:3000`.
 
 ⭐ Star this repo on GitHub — it helps!
+=======
+# Playtube-
+>>>>>>> c55630ecbac08ea8a047f68fe262e8d306303e0b
