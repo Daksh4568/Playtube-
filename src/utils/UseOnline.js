@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //Custom Hook for Online/Offline feature
 
 import { useEffect, useState } from "react";
@@ -27,33 +26,3 @@ const UseOnline = () => {
 };
 
 export default UseOnline;
-=======
-//Custom Hook for Online/Offline feature
-
-import { useEffect, useState } from "react";
-
-const UseOnline = () => {
-  const [isOnline, setIsOnline] = useState(true);
-
-  useEffect(() => {
-    const handleOnline = () => {
-      setIsOnline(true);
-    };
-    const handleOffline = () => {
-      setIsOnline(false);
-    };
-
-    window.addEventListener("online", handleOnline);
-    window.addEventListener("offline", handleOffline);
-
-    return () => {
-      window.removeEventListener("online", handleOnline);
-      window.removeEventListener("offline", handleOffline);
-    };
-  }, []);
-
-  return isOnline;
-};
-
-export default UseOnline;
->>>>>>> 741f9e865cb3776803bc21a74be3629e9fb5fafb
